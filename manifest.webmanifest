@@ -1,0 +1,17 @@
+{
+  "name": "Registration Checker",
+  "short_name": "Checker",
+  "description": "সরকারি ব্রজমোহন কলেজ, বরিশাল-এর রেজিস্ট্রেশন নম্বর যাচাই সিস্টেম",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111111",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

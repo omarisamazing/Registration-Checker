@@ -1,0 +1,11 @@
+{
+  "name": "registration-checker",
+  "version": "1.0.0",
+  "description": "Registration Checker - Modern Monochrome Government Notice UI",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "Omar Ali",
+  "license": "MIT"
+}

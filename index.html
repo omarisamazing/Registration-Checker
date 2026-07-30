@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="সরকারি ব্রজমোহন কলেজ, বরিশাল-এর অর্থনীতি বিভাগের রেজিস্ট্রেশন নম্বর যাচাই সিস্টেম। দ্রুত ও সহজে আপনার পরীক্ষার নোটিশে নম্বর আছে কিনা নিশ্চিত করুন.">
+  <meta name="keywords" content="রেজিস্ট্রেশন নম্বর, Registration Checker, সরকারি ব্রজমোহন কলেজ, বরিশাল, অর্থনীতি বিভাগ, ইনকোর্স পরীক্ষা">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="Omar Ali">
+  <meta property="og:title" content="রেজিস্ট্রেশন নম্বর যাচাই | Registration Checker">
+  <meta property="og:description" content="সরকারি ব্রজমোহন কলেজ, বরিশাল-এর অর্থনীতি বিভাগের অফিসিয়াল রেজিস্ট্রেশন নম্বর যাচাই সিস্টেম।">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://registration-checker.vercel.app/">
+  <meta property="og:site_name" content="Registration Checker">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="রেজিস্ট্রেশন নম্বর যাচাই | Registration Checker">
+  <meta name="twitter:description" content="সরকারি ব্রজমোহন কলেজ, বরিশাল-এর অর্থনীতি বিভাগের অফিসিয়াল রেজিস্ট্রেশন নম্বর যাচাই সিস্টেম।">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0f0f0f">
+  <link rel="canonical" href="https://registration-checker.vercel.app/">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">মূল বিষয়বস্তুতে যান</a>
+
+  <div class="container">
+    <!-- Header -->
+    <header role="banner" class="site-header">
+      <div class="header-row">
+        <div>
+          <span class="gov-badge">OFFICIAL NOTICE CHECKER</span>
+          <p class="institution-name">সরকারি ব্রজমোহন কলেজ, বরিশাল</p>
+          <p class="department-name">অর্থনীতি বিভাগ</p>
+        </div>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="ডার্ক/লাইট থিম বদলান" aria-pressed="true">
+          <span class="theme-toggle__icon" aria-hidden="true">☾</span>
+          <span class="theme-toggle__label">ডার্ক</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main id="main-content" role="main">
+      <h1 class="hero-title">রেজিস্ট্রেশন নম্বর যাচাই</h1>
+      <p class="hero-subtitle">পরীক্ষার নোটিশে আপনার রেজিস্ট্রেশন নম্বর আছে কি না, দ্রুত যাচাই করুন।</p>
+
+      <!-- Notice Meta Info -->
+      <section class="notice-box" aria-label="পরীক্ষার নোটিশ বিবরণ">
+        <div class="notice-header">
+          <span id="deptName">সরকারি ব্রজমোহন কলেজ, বরিশাল • অর্থনীতি বিভাগ</span>
+          <span id="noticeDate">তারিখ: ৩০.০৭.২০২৬</span>
+        </div>
+        <div class="notice-body">
+          <p><strong>বিষয়:</strong> <span id="noticeTitle">অনার্স ৩য় বর্ষ (সেশন ২০২২-২৩) ১ম ও ২য় ইনকোর্স বিশেষ পরীক্ষা নোটিশ।</span></p>
+          <p><strong>পরীক্ষার সময়:</strong> আগামী <strong id="examDate">০৩.০৮.২০২৬ (সোমবার)</strong> সকাল ১০:০০ ঘটিকা।</p>
+          <p id="noticeWarning" style="margin-top:0.4rem; font-size: 0.875rem; color: var(--text-secondary);">
+            * ইনকোর্স পরীক্ষায় অংশগ্রহণ ব্যতিত কোন পরীক্ষার্থী ৩য় বর্ষের ফরম পূরণ করতে পারবে না।
+          </p>
+        </div>
+      </section>
+
+      <!-- Search Input Area -->
+      <form id="searchForm" onsubmit="handleSearch(event)" aria-label="রেজিস্ট্রেশন নম্বর অনুসন্ধান">
+        <div class="search-group">
+          <div class="input-wrapper">
+            <input 
+              type="text" 
+              id="regInput" 
+              class="search-input" 
+              placeholder="আপনার রেজিস্ট্রেশন নম্বর লিখুন" 
+              autocomplete="off" 
+              aria-describedby="helperText"
+              required
+            >
+          </div>
+          <button type="submit" class="search-btn">যাচাই করুন</button>
+        </div>
+        <p id="helperText" class="helper-text">শুধুমাত্র সংখ্যা লিখুন। স্পেস বা অতিরিক্ত চিহ্ন ব্যবহার করবেন না। (যেমন: 22222051950 অথবা 1950)</p>
+      </form>
+
+      <!-- Dynamic Results Area -->
+      <div class="result-container" id="resultArea" aria-live="polite"></div>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <h2 class="section-title">সম্পর্কে</h2>
+        <p class="about-text">এই ওয়েবসাইটটি শিক্ষার্থীদের জন্য একটি দ্রুত ও সহজ রেজিস্ট্রেশন নম্বর যাচাই ব্যবস্থা।</p>
+
+        <h3 class="section-title" style="font-size: 1.05rem; margin-top: 1.5rem;">বৈশিষ্ট্যসমূহ</h3>
+        <ul class="features-list">
+          <li class="feature-item">দ্রুত অনুসন্ধান</li>
+          <li class="feature-item">মোবাইল-বান্ধব</li>
+          <li class="feature-item">দ্রুত লোড হয়</li>
+          <li class="feature-item">সহজ ব্যবহার</li>
+          <li class="feature-item">নিরাপদ</li>
+          <li class="feature-item">সম্পূর্ণ বিনামূল্যে</li>
+        </ul>
+
+        <!-- Selected Work -->
+        <div class="links-block">
+          <h4 class="links-title">Selected Work</h4>
+          <ul class="link-list">
+            <li><a href="https://azizul-haque-cbta-level-4.vercel.app/" target="_blank" rel="noopener">Azizul Haque CBTA Level 4 ↗</a></li>
+            <li><a href="https://waybing.vercel.app/" target="_blank" rel="noopener">Waybing ↗</a></li>
+            <li><a href="https://results-and-calculator--omarisamazing24.replit.app/" target="_blank" rel="noopener">Results & Calculator ↗</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <p class="footer-source">
+        <strong>তথ্যসূত্র:</strong> অর্থনীতি বিভাগের প্রকাশিত অফিসিয়াল নোটিশ (তারিখ: ৩০.০৭.২০২৬)। সংশ্লিষ্ট কর্তৃপক্ষের প্রকাশিত তালিকাই চূড়ান্ত।
+      </p>
+      <div class="footer-bottom">
+        <p class="footer-author">Made with care by Omar Ali</p>
+        
+        <!-- Social Links -->
+        <ul class="link-list" style="margin: 0;">
+          <li><a href="https://www.youtube.com/@omarisamazing" target="_blank" rel="noopener">YouTube</a></li>
+          <li><a href="https://www.facebook.com/omarisamazing/" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://github.com/omarisamazing" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.instagram.com/omarisamazing24/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.fiverr.com/omarisamazing" target="_blank" rel="noopener">Fiverr</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

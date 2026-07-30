@@ -103,18 +103,6 @@ header {
   white-space: nowrap;
 }
 
-.marquee-logo {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 1rem;
-}
-
-.marquee-logo-img {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-}
-
 .marquee-text {
   display: inline-block;
   padding-right: 2rem;

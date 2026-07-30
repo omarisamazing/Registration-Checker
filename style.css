@@ -83,11 +83,51 @@ header {
   padding-bottom: 1.2rem;
 }
 
+.marquee-container {
+  background: linear-gradient(135deg, rgba(17, 17, 17, 0.05) 0%, rgba(17, 17, 17, 0.02) 100%);
+  border-bottom: 2px solid var(--border-dark);
+  padding: 0.75rem 0;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .marquee-container {
+  background: linear-gradient(135deg, rgba(244, 244, 244, 0.05) 0%, rgba(244, 244, 244, 0.02) 100%);
+}
+
+.notice-marquee {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 0 1rem;
+  white-space: nowrap;
+}
+
+.marquee-text {
+  display: inline-block;
+  padding-right: 2rem;
+}
+
 .header-row {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.25rem;
+}
+
+.logo-section {
+  flex-shrink: 0;
+}
+
+.college-logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px var(--shadow));
+}
+
+.header-content {
+  flex-grow: 1;
 }
 
 .institution-name {
@@ -213,9 +253,29 @@ main {
     padding: 0 0.85rem;
   }
 
+  .marquee-container {
+    padding: 0.5rem 0;
+  }
+
+  .notice-marquee {
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
+  }
+
   .header-row {
     flex-direction: column;
     align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .logo-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .college-logo {
+    width: 60px;
+    height: 60px;
   }
 
   .hero-title {
@@ -468,6 +528,63 @@ footer {
 
 .mono {
   font-family: var(--font-mono);
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 0 0.85rem;
+  }
+
+  .marquee-container {
+    padding: 0.5rem 0;
+  }
+
+  .notice-marquee {
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
+  }
+
+  .header-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .logo-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .college-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .notice-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .search-btn {
+    width: 100%;
+  }
+
+  .result-status {
+    font-size: 1.25rem;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

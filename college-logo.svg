@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="সরকারি ব্রজমোহন কলেজ লোগো">
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#003a7a" stroke-width="3"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#003a7a" stroke-width="1"/>
+  
+  <!-- Inner Circle (lighter) -->
+  <circle cx="100" cy="100" r="85" fill="#f5f5f5" stroke="none"/>
+  
+  <!-- Left Star -->
+  <g transform="translate(30, 35)">
+    <polygon points="10,0 12,7 20,7 14,12 16,20 10,16 4,20 6,12 0,7 8,7" fill="#e63946" stroke="none"/>
+  </g>
+  
+  <!-- Right Star -->
+  <g transform="translate(170, 35)">
+    <polygon points="10,0 12,7 20,7 14,12 16,20 10,16 4,20 6,12 0,7 8,7" fill="#e63946" stroke="none"/>
+  </g>
+  
+  <!-- Left Wheat -->
+  <g transform="translate(25, 80)">
+    <line x1="8" y1="30" x2="8" y2="0" stroke="#228b22" stroke-width="2"/>
+    <circle cx="5" cy="5" r="1.5" fill="#228b22"/>
+    <circle cx="8" cy="8" r="1.5" fill="#228b22"/>
+    <circle cx="11" cy="5" r="1.5" fill="#228b22"/>
+    <circle cx="5" cy="15" r="1.5" fill="#228b22"/>
+    <circle cx="8" cy="18" r="1.5" fill="#228b22"/>
+    <circle cx="11" cy="15" r="1.5" fill="#228b22"/>
+    <circle cx="5" cy="25" r="1.5" fill="#228b22"/>
+    <circle cx="8" cy="28" r="1.5" fill="#228b22"/>
+  </g>
+  
+  <!-- Right Wheat -->
+  <g transform="translate(167, 80)">
+    <line x1="8" y1="30" x2="8" y2="0" stroke="#228b22" stroke-width="2"/>
+    <circle cx="5" cy="5" r="1.5" fill="#228b22"/>
+    <circle cx="8" cy="8" r="1.5" fill="#228b22"/>
+    <circle cx="11" cy="5" r="1.5" fill="#228b22"/>
+    <circle cx="5" cy="15" r="1.5" fill="#228b22"/>
+    <circle cx="8" cy="18" r="1.5" fill="#228b22"/>
+    <circle cx="11" cy="15" r="1.5" fill="#228b22"/>
+    <circle cx="5" cy="25" r="1.5" fill="#228b22"/>
+    <circle cx="8" cy="28" r="1.5" fill="#228b22"/>
+  </g>
+  
+  <!-- Book -->
+  <rect x="80" y="55" width="40" height="50" fill="none" stroke="#333" stroke-width="1.5" rx="2"/>
+  <path d="M 100 55 L 100 105" stroke="#333" stroke-width="1"/>
+  <!-- Book pages -->
+  <path d="M 85 70 Q 100 65 115 70" fill="none" stroke="#666" stroke-width="0.8" opacity="0.6"/>
+  <path d="M 85 80 Q 100 75 115 80" fill="none" stroke="#666" stroke-width="0.8" opacity="0.6"/>
+  <path d="M 85 90 Q 100 85 115 90" fill="none" stroke="#666" stroke-width="0.8" opacity="0.6"/>
+  
+  <!-- Candle -->
+  <rect x="98" y="40" width="4" height="12" fill="#ff6b35"/>
+  <polygon points="100,38 97,42 103,42" fill="#ffff00"/>
+  
+  <!-- Shield shapes (left and right) -->
+  <g transform="translate(35, 100)">
+    <path d="M 0 5 L 0 25 Q 0 35 12 40 Q 24 35 24 25 L 24 5 Z" fill="none" stroke="#a63241" stroke-width="1.5"/>
+    <text x="12" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a63241" font-weight="bold">স্থাপিত</text>
+  </g>
+  
+  <g transform="translate(140, 100)">
+    <path d="M 0 5 L 0 25 Q 0 35 12 40 Q 24 35 24 25 L 24 5 Z" fill="none" stroke="#a63241" stroke-width="1.5"/>
+    <text x="12" y="28" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a63241" font-weight="bold">১৮৮৯</text>
+  </g>
+  
+  <!-- Center text below book -->
+  <text x="100" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333" font-weight="bold">স্থাপিত: ১৮৮৯</text>
+  
+  <!-- Top Bengali text arc (curved) -->
+  <defs>
+    <path id="topArc" d="M 40,100 A 60,60 0 0,1 160,100" fill="none"/>
+  </defs>
+  <text font-family="Arial, sans-serif" font-size="12" fill="#003a7a" font-weight="bold">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">
+      সত্য প্রেম পরিবত্তন
+    </textPath>
+  </text>
+  
+  <!-- Bottom Bengali text arc (curved) -->
+  <defs>
+    <path id="bottomArc" d="M 160,100 A 60,60 0 0,1 40,100" fill="none"/>
+  </defs>
+  <text font-family="Arial, sans-serif" font-size="11" fill="#a63241" font-weight="bold">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">
+      সরকারি ব্রজমোহন কলেজ, বরিশাল
+    </textPath>
+  </text>
+</svg>

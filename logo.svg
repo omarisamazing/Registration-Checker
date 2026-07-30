@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- This is a placeholder - your actual logo SVG content will be used -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#003a7a" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="90" fill="#ffffff"/>
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="middle" font-size="20" font-weight="bold" fill="#003a7a">ব্রজ</text>
+</svg>
